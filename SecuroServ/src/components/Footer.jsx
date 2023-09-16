@@ -9,29 +9,23 @@ return (
     </div>
     <div className="flex justify-evenly flex-col md:flex-row w-[60%] space-y-10 md:space-y-0">
         <div className="space-y-6">
-            <h1 className="text-2xl text-white">MARKETS</h1>
-            <ul className="space-y-3 hover: underline-offset-1 ">
-                <li><a href="#">Web Platform</a></li>
-                <li><a href="#">Trading apps</a></li>
-                <li><a href="#">Meta trader 5</a></li>
-                <li><a href="#">Compare features</a></li>
-            </ul>
-        </div>
-        <div className="space-y-6">
             <h1 className="text-2xl text-white">ACCOUNT TYPES</h1>
-            <ul className="space-y-3">
-                <li><a href="#">Demo account</a></li>
-                <li><a href="#">Standard account</a></li>
-                <li><a href="#">ECN account</a></li>
-                <li><a href="#">Islamic account</a></li>
+            <ul className="space-y-3 hover: underline-offset-1 ">
+                <li><a href="#">Instagram</a></li>
+                <li><a href="https://www.facebook.com/">Meta (Facebook)</a></li>
+                <li><a href="#">X (Twitter)</a></li>
+                <li><a href="#">Linkdin</a></li>
             </ul>
         </div>
         <div className="space-y-6">
-            <h1 className="text-2xl text-white">LEARN TO TRADE</h1>
+            <h1 className="text-2xl text-white">CREATORS</h1>
             <ul className="space-y-3">
-                <li><a href="#">News and trade ideas</a></li>
-                <li><a href="#">Trading strategy</a></li>
-                <li><a href="#">Forex trading course</a></li>
+                <li><a href="#">Leonardo Fernandes</a></li>
+                <li><a href="#">Agnibha Chakraborty</a></li>
+                <li><a href="#">Abhinay Singh Bhaduaria</a></li>
+                <li><a href="#">Syed Kaif Ashraf</a></li>
+                <li><a href="#">Vedant Kanoje</a></li>
+                <li><a href="#">Purnima Sahoo</a></li>
                 
             </ul>
         </div>
