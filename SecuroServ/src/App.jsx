@@ -1,20 +1,26 @@
-import Landing from "./components/Landing";
-import Blog from "./components/Blog";
-import Features from "./components/Features";
-import Steps from "./components/Steps";
-import News from "./components/News";
-import Footer from "./components/Footer";
+import { Suspense, lazy } from "react";
 import "./App.css";
+
+// Use React.lazy and import() to create dynamic imports for your components
+const Landing = lazy(() => import("./components/Landing"));
+const Blog = lazy(() => import("./components/Blog"));
+const Features = lazy(() => import("./components/Features"));
+const Steps = lazy(() => import("./components/Steps"));
+const News = lazy(() => import("./components/News"));
+const Footer = lazy(() => import("./components/Footer"));
 
 function App() {
   return (
     <>
-      <Landing />
-      <Blog />
-      <Features />
-      <Steps />
-      <News />
-      <Footer />
+      {/* Wrap the lazy-loaded components with Suspense for loading handling */}
+      <Suspense fallback={<div>Loading...</div>}>
+        <Landing />
+        <Blog />
+        <Features />
+        <Steps />
+        <News />
+        <Footer />
+      </Suspense>
     </>
   );
 }
