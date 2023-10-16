@@ -1,3 +1,6 @@
+import { Suspense, lazy } from "react";
+const Steps = lazy(() => import("./Steps"));
+
 function Features() {
   return (
     <>
@@ -75,6 +78,9 @@ function Features() {
           </div>
         </div>
       </section>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Steps />
+      </Suspense>
     </>
   );
 }

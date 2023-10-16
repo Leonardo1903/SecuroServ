@@ -47,7 +47,7 @@ function News() {
             </h2>
             <h1 className="text-2xl md:text-3xl font-semibold">{p.title}</h1>
             <p className="text-base md:text-lg mt-2">{p.description}</p>
-            <button className="text-base mt-4">
+            <button className="text-base mt-4 hover:text-[#FC5B3F]">
               <a href={p.url}>Read More ---&gt;</a>
             </button>
           </div>

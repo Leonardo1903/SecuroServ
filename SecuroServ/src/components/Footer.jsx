@@ -1,3 +1,4 @@
+import Logo from "../assets/Logo.jpg";
 import {
   FaFacebook,
   FaLinkedin,
@@ -7,8 +8,9 @@ import {
 function Footer() {
   return (
     <>
-      <footer className="w-screen flex flex-col md:flex-row justify-around bg-[#212224] h-[90%] text-slate-500 py-16 space-y-10 md:space-y-0">
-        <div>
+      <footer className="w-screen flex flex-col md:flex-row justify-around bg-black h-[90%] text-slate-500 py-16 space-y-10 md:space-y-0">
+        <div className="flex flex-row ">
+          <img src={Logo} alt="Logo" className="h-10 w-auto" />
           <h1 className="text-[#fc5b3f] text-4xl font-bold">SecuroServ</h1>
         </div>
         <div className="flex justify-evenly flex-col md:flex-row w-[60%] space-y-10 md:space-y-0">
