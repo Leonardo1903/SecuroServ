@@ -34,7 +34,7 @@ function News() {
   return (
     <section className="w-screen mx-8 my-10">
       <h1 className="text-5xl w-full my-20 font-bold">
-        Stay ahead of the curve
+        Stay ahead of the curve:
       </h1>
       <section className="w-full flex flex-col md:flex-row">
         {displayedArticles.map((p, index) => (

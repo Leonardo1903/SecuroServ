@@ -1,15 +1,16 @@
+import { Link } from "react-router-dom";
 function Blog() {
   return (
     <>
       <section className="w-screen h-fit md:h-screen bg-black py-5">
         <div className="flex justify-between items-center w-11/12 mx-auto h-auto my-auto">
-          <h1 className="text-white md:text-4xl">
+          <h1 className="text-white text-4xl">
             How Fake Profiles Are{" "}
             <span className="text-[#fc5b3f]">Poisoning</span> <br /> the Digital
             World.
           </h1>
           <button className="text-white border-[#fc5b3f] bg-[#212224] py-4 px-8  font-bold border-2 rounded-md h-fit hover:bg-[#fc5b3f] ease-in-out delay-200">
-            Find out more
+            <Link to="/docs">Find Out more</Link>
           </button>
         </div>
         <div className="w-screen flex flex-col md:flex-row justify-around text-white my-5 space-y-4 md:space-y-0">
@@ -17,7 +18,7 @@ function Blog() {
             <img
               src="https://www.indonez.com/html-demo/liquid/img/in-liquid-object-1.svg"
               alt="Image"
-              className="mx-auto mr-0 mt-0 "
+              className=" mx-auto "
             />
             <h1 className="text-4xl font-bold ">Online Fraud</h1>
             <p className="text-xl text-ellipsis">
@@ -30,7 +31,7 @@ function Blog() {
             <img
               src="https://www.indonez.com/html-demo/liquid/img/in-liquid-object-2.svg"
               alt="Image"
-              className="mx-auto mr-0 mt-0 "
+              className="mx-auto  "
             />
             <h1 className="text-4xl font-bold ">Manipulation and Influence</h1>
             <p className="text-xl">
@@ -42,7 +43,7 @@ function Blog() {
             <img
               src="https://www.indonez.com/html-demo/liquid/img/in-liquid-object-3.svg"
               alt="Image"
-              className="mx-auto mr-0 mt-0 "
+              className="mx-auto "
             />
             <h1 className="text-4xl  font-bold ">
               Negative Reviews and Feedback

@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
 
-function Landing() {
+function Hero() {
   return (
     <>
       <Navbar />
@@ -14,8 +15,7 @@ function Landing() {
           </h3>
           {/* discover accounts opens form page,  */}
           <button className="text-white border-[#fc5b3f]  bg-[#212224] py-3 font-bold border-2 rounded-md px-10 animate-bounce w-[95%] md:w-auto mx-auto hover:bg-[#fc5b3f] ease-in-out delay-200">
-            {" "}
-            Discover Accounts{" "}
+            <Link to="/detect">Discover Accounts</Link>
           </button>
         </div>
         <div>
@@ -29,4 +29,4 @@ function Landing() {
   );
 }
 
-export default Landing;
+export default Hero;
