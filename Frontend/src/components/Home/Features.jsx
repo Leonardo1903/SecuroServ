@@ -4,7 +4,7 @@ const Steps = lazy(() => import("./Steps"));
 function Features() {
   return (
     <>
-      <section className="w-screen py-20 mx-10 space-y-16">
+      <section className="w-screen py-20 mx-10 space-y-16" id="features">
         <div className="flex flex-col md:flex-row justify-around space-y-8 md:space-y-0">
           <div className="flex w-screen md:w-[40%] space-x-5 ">
             <img

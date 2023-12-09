@@ -77,46 +77,6 @@ function Footer() {
                   <span>Agnibha Chakraborty</span>
                 </a>
               </li>
-
-              <li className="hover:text-white">
-                <a
-                  href="https://www.linkedin.com/in/abhinay-s-bhadauria-a7b588250"
-                  className="flex items-center space-x-2"
-                >
-                  <FaLinkedin />
-                  <span>Abhinay Singh Bhaduaria</span>
-                </a>
-              </li>
-
-              <li className="hover:text-white">
-                <a
-                  href="https://www.linkedin.com/in/syed-kaif-ashraf-774286249"
-                  className="flex items-center space-x-2"
-                >
-                  <FaLinkedin />
-                  <span>Syed Kaif Ashraf</span>
-                </a>
-              </li>
-
-              <li className="hover:text-white">
-                <a
-                  href="https://www.linkedin.com/in/vedant-kanoje-5108b524b"
-                  className="flex items-center space-x-2"
-                >
-                  <FaLinkedin />
-                  <span>Vedant Kanoje</span>
-                </a>
-              </li>
-
-              <li className="hover:text-white">
-                <a
-                  href="https://www.linkedin.com/in/purnima-sahoo-61a566252"
-                  className="flex items-center space-x-2"
-                >
-                  <FaLinkedin />
-                  <span>Purnima Sahoo</span>
-                </a>
-              </li>
             </ul>
           </div>
         </div>

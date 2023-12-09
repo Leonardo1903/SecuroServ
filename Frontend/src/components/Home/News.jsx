@@ -32,7 +32,7 @@ function News() {
   };
 
   return (
-    <section className="w-screen mx-8 my-10">
+    <section className="w-screen mx-8 my-10" id="news">
       <h1 className="text-5xl w-full my-20 font-bold">
         Stay ahead of the curve:
       </h1>

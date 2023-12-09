@@ -9,10 +9,18 @@ function Navbar() {
           <h1 className="text-[#fc5b3f] text-4xl font-bold ml-2">SecuroServ</h1>
           <div className="mx-[15rem] flex justify-center w-full">
             <ul className="hidden md:flex justify-center text-white text-xl ml-10 ">
-              <li className="mr-10 hover:text-[#fc5b3f]">Home</li>
-              <li className="mr-10 hover:text-[#fc5b3f]">Problems</li>
-              <li className="mr-10 hover:text-[#fc5b3f]">Features</li>
-              <li className="mr-10 hover:text-[#fc5b3f]">News</li>
+              <a href="#hero" className="mr-10 hover:text-[#fc5b3f]">
+                Home
+              </a>
+              <a href="#problems" className="mr-10 hover:text-[#fc5b3f]">
+                Problems
+              </a>
+              <a href="#features" className="mr-10 hover:text-[#fc5b3f]">
+                Features
+              </a>
+              <a href="#news" className="mr-10 hover:text-[#fc5b3f]">
+                News
+              </a>
             </ul>
           </div>
         </div>

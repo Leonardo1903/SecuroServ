@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 function Blog() {
   return (
     <>
-      <section className="w-screen h-fit md:h-screen bg-black py-5">
+      <section
+        className="w-screen h-fit md:h-screen bg-black py-5"
+        id="problems"
+      >
         <div className="flex justify-between items-center w-11/12 mx-auto h-auto my-auto">
           <h1 className="text-white text-4xl">
             How Fake Profiles Are{" "}

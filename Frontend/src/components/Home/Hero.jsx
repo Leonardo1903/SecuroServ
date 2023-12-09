@@ -5,7 +5,10 @@ function Hero() {
   return (
     <>
       <Navbar />
-      <section className="w-screen h-screen bg-black flex flex-col md:flex-row justify-around py-20 items-center">
+      <section
+        className="w-screen h-screen bg-black flex flex-col md:flex-row justify-around py-20 items-center"
+        id="hero"
+      >
         <div className="w-full md:w-[50%] space-y-6">
           <h1 className="text-5xl md:text-7xl text-white">
             Authenticity Guardians: Your Shield Against Impersonators
