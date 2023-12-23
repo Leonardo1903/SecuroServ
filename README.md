@@ -1,6 +1,7 @@
 # SecuroServ
-A Full-Stack Project for prediction of Fake Social media profiles
-using Machine Learning Algorithms
+![Screenshot 2023-12-23 230028](https://github.com/Leonardo1903/SecuroServ/assets/113446491/a609c480-6104-4eeb-a9f9-70b73763f2e9)
+
+A Full-Stack Project for prediction of Fake Social media profiles using Machine Learning Algorithms
 
 ## Tech Stack
 1. ReactJs - Frontend Farmework
