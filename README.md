@@ -11,3 +11,4 @@ A Full-Stack Project for prediction of Fake Social media profiles using Machine 
 5. Mongo DB - NOSQL Database
 6. Python - building and maintaining ML model
  
+Contributors : [Agnibha Chakraborty](https://github.com/Nexus-Agni) And [Leonardo Ferndandes](https://github.com/Leonardo1903)
